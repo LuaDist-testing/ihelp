@@ -1,17 +1,9 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "ihelp"
 version = "1.0-2"
--- LuaDist source
 source = {
-  tag = "1.0-2",
-  url = "git://github.com/LuaDist-testing/ihelp.git"
+   url = "git://github.com/dlaurie/lua-ihelp.git",
+   tag = "1.0-2"
 }
--- Original source
--- source = {
---    url = "git://github.com/dlaurie/lua-ihelp.git",
---    tag = "1.0",
--- }
 description = {
    summary = "Interactive Lua help.",
    detailed = [[
@@ -21,14 +13,14 @@ description = {
    ]],
    homepage = "https://github.com/dlaurie/lua-ihelp",
    license = "MIT/X11",
-   maintainer = "dirk.laurie@gmail.com"
+   maintainer = "dirk.laurie@gmail.com",   
 }
 dependencies = {
-   "lua >= 5.1"
+   "lua >= 5.1",
 }
 build = {
    type = "builtin",
    modules = {
-      ihelp = "ihelp.lua"
+      ihelp = "ihelp.lua",
    }
 }
