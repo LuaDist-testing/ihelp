@@ -1,18 +1,10 @@
--- This file was automatically generated for the LuaDist project.
-
 package = "ihelp"
 version = "1.0-1"
--- LuaDist source
 source = {
-  tag = "1.0-1",
-  url = "git://github.com/LuaDist-testing/ihelp.git"
+   url = "git://github.com/dlaurie/lua-ihelp.git",
+   tag = "1.0",
+   dir = "."
 }
--- Original source
--- source = {
---    url = "git://github.com/dlaurie/lua-ihelp.git",
---    tag = "1.0",
---    dir = "."
--- }
 description = {
    summary = "Interactive Lua help.",
    detailed = [[
